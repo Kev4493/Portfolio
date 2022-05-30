@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 40px;
+
+    img {
+        width: 125px;
+        object-fit: cover;
+    }
+
+    a {
+        margin-left: 54px;
+        color: white;
+        text-decoration: none;
+    }
+}
