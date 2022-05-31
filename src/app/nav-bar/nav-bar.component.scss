@@ -4,16 +4,53 @@ header {
     justify-content: space-between;
     padding-left: 105px;
     padding-right: 105px;
-    margin-top: 40px;
 
-    img {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+
+    .header-logo {
         width: 125px;
         object-fit: cover;
+        cursor: pointer;
+    }
+
+    .burger-menu {
+        filter: invert(95%) sepia(0%) saturate(7479%) hue-rotate(61deg) brightness(109%) contrast(104%);
     }
 
     a {
         margin-left: 54px;
-        color: white;
+        color: whitesmoke;
         text-decoration: none;
+
+        &:hover {
+            color: #fa2759;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        a {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    header {
+        .burger-menu {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    header {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 24px;
     }
 }

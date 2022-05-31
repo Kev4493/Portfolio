@@ -1,0 +1,27 @@
+.skills-section-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1A1A1A;
+
+    .skills-headline {
+        padding-top: 40px;
+        h2 {
+            font-size: 36px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .skill-boxes-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .skill-box {
+            width: 150px;
+            height: 100px;
+            background-color: white;
+            margin: 1rem;
+        }
+    }
+}
