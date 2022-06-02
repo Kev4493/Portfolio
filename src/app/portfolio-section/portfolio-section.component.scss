@@ -1,0 +1,33 @@
+.portfolio-section-container {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 105px;
+    padding-right: 105px;
+
+    .header-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        h2 {
+            font-size: 36px;
+        }
+    }
+
+    .project-filter-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .project-filter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #FA2759;
+            width: 150px;
+            height: 80px;
+            margin: 40px 20px;
+            cursor: pointer;
+        }
+    }
+}
