@@ -1,0 +1,23 @@
+.contact-me-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 105px;
+
+    .headline-container {
+
+        h1 {
+            color: rgb(45, 252, 216);
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 1rem;
+        }
+
+        a {
+            color: rgba(45, 252, 216, 0.7);
+            text-decoration: none;
+        }
+    }
+}

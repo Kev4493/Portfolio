@@ -12,4 +12,10 @@ export class PortfolioSectionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
+  showAllProjects() {
+
+  }
+
 }

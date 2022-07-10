@@ -7,6 +7,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeSectionComponent } from './home-section/home-section.component';
 import { SkillsSectionComponent } from './skills-section/skills-section.component';
 import { PortfolioSectionComponent } from './portfolio-section/portfolio-section.component';
+import { AboutMeSectionComponent } from './about-me-section/about-me-section.component';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PortfolioSectionComponent } from './portfolio-section/portfolio-section
     NavBarComponent,
     HomeSectionComponent,
     SkillsSectionComponent,
-    PortfolioSectionComponent
+    PortfolioSectionComponent,
+    AboutMeSectionComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,
