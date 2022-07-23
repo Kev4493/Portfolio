@@ -1,10 +1,12 @@
 .contact-me-container {
+    max-width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 40px 105px;
+    padding: 60px 105px;
 
     .headline-container {
+        width: 650px;
 
         h1 {
             color: rgb(45, 252, 216);
@@ -27,15 +29,55 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 1rem;
+        margin-top: 3rem;
 
         form {
             display: flex;
             flex-direction: column;
+            width: 650px;
 
             label {
-                // margin-bottom: 1rem;
+                margin-bottom: .5rem;
+            }
+
+            input {
+                margin-bottom: 1.5rem;
+                background-color: #1a1a1a;
+                border: none;
+                height: 45px;
+            }
+
+            textarea {
+                background-color: #1a1a1a;
+                border: none;
+                font-family: 'Inter';
             }
         }
     }
+
+    .button-container {
+        width: 650px;
+        display: flex;
+        justify-content: flex-end;
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #2DFCD8;
+            width: 150px;
+            height: 60px;
+            margin-top: 45px;
+            cursor: pointer;
+        
+            &:hover {
+                background-color: #2DFCD8;
+                color: black;
+            }
+        }
+
+    }
+
+   
 }
+
