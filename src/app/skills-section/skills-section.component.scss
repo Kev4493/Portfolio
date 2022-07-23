@@ -1,10 +1,11 @@
 .skills-section-container {
     width: 100vw;
+    min-height: 100vh;
     padding: 40px 0px;
     background-color: #1A1A1A;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 
@@ -47,8 +48,6 @@
                     object-fit: cover;
                 }
             }
-
-
 
             width: 200px;
             height: 150px;
