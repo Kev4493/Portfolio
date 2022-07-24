@@ -13,6 +13,7 @@
     .welcome-text {
         h1 {
             font-size: 4rem;
+            font-family: 'Exo 2';
     
             .red {
                 color: #FA2759;
@@ -32,11 +33,19 @@
         width: 200px;
         height: 60px;
         margin-top: 60px;
-        cursor: pointer;
-
+        
         &:hover {
             background-color: #2DFCD8;
-            color: black;
+            cursor: pointer;
+
+            p {
+                color: black;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
         }
     }
 

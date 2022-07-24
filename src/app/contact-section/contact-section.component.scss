@@ -10,6 +10,8 @@
 
         h1 {
             color: rgb(45, 252, 216);
+            font-family: 'Exo 2';
+            text-transform: uppercase;
         }
 
         p {
@@ -76,10 +78,19 @@
             height: 60px;
             margin-top: 45px;
             cursor: pointer;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
         
             &:hover {
                 background-color: #2DFCD8;
                 color: black;
+
+                p {
+                    color: black;
+                }
             }
         }
 

@@ -6,6 +6,8 @@
     .header-container {
         display: flex;
         justify-content: center;
+        font-family: 'Exo 2';
+        text-transform: uppercase;
     }
 
     .project-filter-container {
@@ -25,7 +27,7 @@
 
             &:hover {
                 background-color: rgb(250, 39, 89);
-                transition: 0.5s;
+                transition: 125ms;
             }
         }
     }
@@ -58,7 +60,7 @@
 
             &:hover {
                 box-shadow: 5px 5px 18px -5px rgba(250,39,89,0.7);
-                transition: 0.5s;
+                transition: 125ms;
                 cursor: pointer;
             }
         }
