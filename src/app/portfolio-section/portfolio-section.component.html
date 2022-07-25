@@ -6,27 +6,35 @@
 
     <div class="project-filter-container">
         <div (click)="showAllProjects()" class="project-filter">All</div>
-        <div class="project-filter">Angular</div>
-        <div class="project-filter">JavaScript</div>
+        <div (click)="showAngularProjects()" class="project-filter">Angular</div>
+        <div (click)="showJsProjects()" class="project-filter">JavaScript</div>
     </div>
 
     <div class="projects-container">
 
         <div class="projects-boxes-container">
 
-            <div class="project-box">
+            <div class="project-box" *ngIf="allProjects || jsProjects">
                 <img class="project-cover" src="../../assets/img/portfolio_screenshots/screen_pollo_loco.png" alt="">
+                <div class="project-info">
+                    <h1>El Pollo Loco</h1>
+                    <p>This is a 2D Jump and Run Game based on object-oriented programming (OOP)</p>
+                    <div class="button-container">
+                        <button>Try it out</button>
+                        <button>Show me the Code</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="project-box">
+            <div class="project-box" *ngIf="allProjects || angularProjects">
                 <img class="project-cover" src="../../assets/img/portfolio_screenshots/screen_ring_of_fire.png" alt="">
             </div>
 
-            <div class="project-box">
+            <div class="project-box" *ngIf="allProjects || jsProjects" >
                 <img class="project-cover" src="../../assets/img/portfolio_screenshots/screen_kanban.png" alt="">
             </div>
 
-            <div class="project-box">
+            <div class="project-box" *ngIf="allProjects || jsProjects">
                 <img class="project-cover" src="../../assets/img/portfolio_screenshots/screen_pokedex.png" alt="">
             </div>
 

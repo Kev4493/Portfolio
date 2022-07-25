@@ -13,9 +13,28 @@ export class PortfolioSectionComponent implements OnInit {
   }
 
   
+  allProjects = true;
+  angularProjects = false;
+  jsProjects = false;
+
 
   showAllProjects() {
-
+    this.allProjects = true;
+    this.angularProjects = false;
+    this.jsProjects = false;
   }
 
+
+  showAngularProjects() {
+    this.allProjects = false;
+    this.angularProjects = true;
+    this.jsProjects = false;
+  }
+
+
+  showJsProjects() {
+    this.allProjects = false;
+    this.angularProjects = false;
+    this.jsProjects = true;
+  }
 }
