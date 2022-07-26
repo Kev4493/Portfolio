@@ -37,4 +37,5 @@ export class PortfolioSectionComponent implements OnInit {
     this.angularProjects = false;
     this.jsProjects = true;
   }
+
 }
