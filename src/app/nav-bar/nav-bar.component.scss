@@ -43,10 +43,19 @@ header {
     }
 }
 
+@media (max-width: 950px) {
+
+    header {
+        top: 25px;
+    }
+}
+
 @media (max-width: 800px) {
     header {
-        a {
-            display: none;
+        div {
+            a {
+                display: none;
+            }
         }
     }
 }
@@ -63,6 +72,6 @@ header {
     header {
         padding-left: 40px;
         padding-right: 40px;
-        margin-top: 24px;
+        // margin-top: 24px;
     }
 }

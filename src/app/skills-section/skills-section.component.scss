@@ -65,3 +65,25 @@
         }
     }
 }
+
+@media (max-width: 1090px) {
+
+    .skill-boxes-container {
+        width: 800px !important;
+    }
+
+    .skill-box {
+        margin: 2rem 2rem !important;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .skill-boxes-container {
+        width: 595px !important;
+    }
+
+    .skill-box {
+        margin: 2rem 3rem !important;
+    }
+}
