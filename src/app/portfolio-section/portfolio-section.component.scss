@@ -64,7 +64,7 @@
             }
 
             &:hover {
-                box-shadow: 5px 5px 18px -5px rgba(250,39,89,0.7);
+                box-shadow: 5px 5px 18px -5px rgba(250, 39, 89, 0.7);
                 transition: 125ms;
                 // cursor: pointer;
             }
@@ -132,4 +132,55 @@
     .projects-boxes-container {
         width: 100% !important;
     }
+}
+
+@media (max-width:768px) {
+
+    .portfolio-section-container {
+        padding: 60px 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-section-container {
+        padding: 60px 25px;
+    }
+
+    .project-box {
+        width: 350px !important;
+        height: unset !important;
+
+        img {
+            width: 350px !important;
+        }
+
+        .project-info {
+            padding: 1rem !important;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                button {
+                    padding: 0.3rem !important;
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .project-filter {
+        margin: 40px 10px !important;
+    }
+
 }

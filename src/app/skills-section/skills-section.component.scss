@@ -87,3 +87,47 @@
         margin: 2rem 3rem !important;
     }
 }
+
+@media (max-width: 600px) {
+
+    .skill-boxes-container {
+        width: 430px !important;
+
+        .skill-box {
+            width: 150px !important;
+            height: 100px !important;
+            margin: 2rem 2rem !important;
+
+            .skill-icon-container {
+                width: 50px !important;
+                height: 50px !important;
+                left: 53px !important;
+
+                img {
+                    width: 25px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    .skill-boxes-container {
+        width: 300px !important;
+
+        .skill-box {
+            width: 115px !important;
+            margin: 2rem 1rem !important;
+
+            p {
+                text-align: center;
+            }
+
+            .skill-icon-container {
+                left: 35px !important;
+            }
+        }
+    }
+
+}

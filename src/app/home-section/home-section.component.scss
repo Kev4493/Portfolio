@@ -142,6 +142,37 @@
     }
 }
 
+@media (max-width:768px) {
+    .home-section-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-section-container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .welcome-text {
+        h1 {
+            font-size: 2rem !important;
+            margin-top: 5rem !important;
+        }
+    }
+
+    .button {
+        width: 250px !important;
+    }
+
+    .profile-picture {
+        width: 250px !important;
+        height: 250px !important;
+        margin-top: 5rem;
+    }
+}
+
 
 @media (max-width: 360px) {
 

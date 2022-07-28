@@ -68,6 +68,12 @@ header {
     }
 }
 
+@media (max-width: 600px) {
+    header {
+       padding: 0px 25px; 
+    }
+}
+
 @media (max-width: 414px) {
     header {
         padding-left: 40px;

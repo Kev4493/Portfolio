@@ -136,5 +136,42 @@
 }
 
 @media (max-width:768px) {
-    
+
+    .about-me-container {
+        padding: 60px 50px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .about-me-header {
+        img {
+            width: 180px !important;
+            height: 180px !important;
+        }
+
+        .about-me-text {
+            width: 250px !important;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .about-me-header {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+           margin-bottom: 3rem;
+        }
+
+        .about-me-text {
+            margin-left: 0 !important;
+        }
+    }
+
+    .cv-boxes {
+        width: 300px !important;
+    }
 }
