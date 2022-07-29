@@ -133,3 +133,21 @@
         }
     }
 }
+
+@media (max-width: 375px) {
+
+    .contact-me-container {
+
+        .headline-container {
+            width: 310px !important;
+        }
+
+        form {
+            width: 310px !important;
+        }
+
+        .button-container {
+            width: 310px !important;
+        }
+    }
+}

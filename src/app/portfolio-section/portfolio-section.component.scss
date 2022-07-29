@@ -184,3 +184,38 @@
     }
 
 }
+
+@media (max-width: 375px) {
+
+    .project-filter-container {
+        display: flex;
+        justify-content: space-between !important;
+        margin-top: 45px;
+        margin-bottom: 45px;
+
+        .project-filter {
+            width: 90px !important;
+            margin: unset !important;
+        }
+    }
+
+    .project-box {
+        width: 310px !important;
+
+        .project-cover {
+            width: 310px !important;
+        }
+
+        .project-info {
+            h1 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+
+}
