@@ -8,12 +8,9 @@
         <a href="#footer-container">Imprint</a>
     </div>
 
-    <!-- <img mat-button [matMenuTriggerFor]="menu" class="burger-menu" src="../../assets/icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt=""> -->
 
     <div mat-button [matMenuTriggerFor]="menu" class="example-button-container">
-        <button mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
-          <mat-icon>menu</mat-icon>
-        </button>
+        <img mat-button mat-mini-fab color="" aria-label="Example icon button with a menu icon" [matMenuTriggerFor]="menu" class="burger-menu" src="../../assets/icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
     </div>
 
     <mat-menu class="mobile-menu" #menu="matMenu">
