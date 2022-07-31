@@ -12,6 +12,8 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { FooterSectionComponent } from './footer-section/footer-section.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { MatMenuModule } from '@angular/material/menu';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatMenuModule
+    MatMenuModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
