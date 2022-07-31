@@ -8,5 +8,12 @@
         <a href="#footer-container">Imprint</a>
     </div>
 
-    <img class="burger-menu" src="../../assets/icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
+    <img mat-button [matMenuTriggerFor]="menu" class="burger-menu" src="../../assets/icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
+
+    <mat-menu class="menu" #menu="matMenu">
+        <button mat-menu-item>Home</button>
+        <button mat-menu-item>Skills</button>
+        <button mat-menu-item>Portfolio</button>
+        <button mat-menu-item>Imprint</button>
+    </mat-menu>
 </header>

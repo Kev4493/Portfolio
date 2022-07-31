@@ -10,6 +10,8 @@ import { PortfolioSectionComponent } from './portfolio-section/portfolio-section
 import { AboutMeSectionComponent } from './about-me-section/about-me-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { FooterSectionComponent } from './footer-section/footer-section.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FooterSectionComponent } from './footer-section/footer-section.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
