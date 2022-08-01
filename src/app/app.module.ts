@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MatIconModule } from '@angular/material/icon';
     PortfolioSectionComponent,
     AboutMeSectionComponent,
     ContactSectionComponent,
-    FooterSectionComponent
+    FooterSectionComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,

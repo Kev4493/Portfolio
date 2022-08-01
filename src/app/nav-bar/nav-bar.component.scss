@@ -24,10 +24,12 @@ header {
         cursor: pointer;
     }
 
+
     .burger-menu {
         filter: invert(95%) sepia(0%) saturate(7479%) hue-rotate(61deg) brightness(109%) contrast(104%);
         cursor: pointer;
     }
+
 
     div {
         font-size: 1.2rem;
@@ -36,7 +38,7 @@ header {
             margin-left: 54px;
             color: whitesmoke;
             text-decoration: none;
-    
+
             &:hover {
                 color: #fa2759;
             }
@@ -71,7 +73,7 @@ header {
 
 @media (max-width: 600px) {
     header {
-       padding: 0px 25px; 
+        padding: 0px 25px;
     }
 }
 
