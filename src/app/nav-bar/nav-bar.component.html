@@ -1,11 +1,11 @@
 <header>
-    <a href="home-section"><img class="header-logo" src="../../assets/img/logo_white.png" alt=""></a>
+    <a href="#home-section"><img class="header-logo" src="../../assets/img/logo_white.png" alt=""></a>
 
     <div>
         <a href="#home-section">Home</a>
         <a href="#skills-section-container">Skills</a>
         <a href="#portfolio-section-container">Portfolio</a>
-        <a href="#footer-container">Imprint</a>
+        <a routerLink="/imprint">Imprint</a>
     </div>
 
 
@@ -14,10 +14,10 @@
     </div>
 
     <mat-menu class="mobile-menu" #menu="matMenu">
-        <a href="#footer-container"><button mat-menu-item>Home</button></a>
-        <a href="#footer-container"><button mat-menu-item>Skills</button></a>
-        <a href="#footer-container"><button mat-menu-item>Portfolio</button></a>
-        <a href="#footer-container"><button mat-menu-item>Imprint</button></a>
+        <a href="#home-section"><button mat-menu-item>Home</button></a>
+        <a href="#skills-section-container"><button mat-menu-item>Skills</button></a>
+        <a href="#portfolio-section-container"><button mat-menu-item>Portfolio</button></a>
+        <a routerLink="/imprint"><button mat-menu-item>Imprint</button></a>
 
         <!-- <button mat-menu-item><a href="#home-section" style="color: black">Home</a></button>
         <button mat-menu-item> <a href="#skills-section-container" style="color: black">Skills</a></button>

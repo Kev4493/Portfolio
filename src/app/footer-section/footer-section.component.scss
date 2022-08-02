@@ -11,9 +11,14 @@
     align-items: center;
 
     .impressum-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
         a {
             text-decoration: none;
             color: rgba(0, 0, 0, 0.7);
+
+            margin-right: 2rem;
         }
     }
 
@@ -42,5 +47,24 @@
     .footer-container {
         flex-direction: column-reverse;
         justify-content: space-around;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-container {
+        height: 140px;
+        
+        a {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .footer-container {
+        
+        a {
+            font-size: 0.8rem;
+        }
     }
 }
