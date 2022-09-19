@@ -2,7 +2,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 70px;
+    padding-left: 9.5%;
+    padding-right: 9.5%;
     background-color: #1A1A1A;
     width: 95%;
     margin-left: auto;
@@ -46,6 +47,22 @@ header {
     }
 }
 
+@media (min-width: 2560px) {
+    header {
+        height: 115px !important;
+
+        .header-logo {
+            width: 160px;
+        }
+
+        div {
+            a {
+                font-size: 1.6rem !important;
+            }
+        }
+    }
+}
+
 @media (max-width: 950px) {
 
     header {
@@ -68,19 +85,5 @@ header {
         .example-button-container {
             display: none;
         }
-    }
-}
-
-@media (max-width: 600px) {
-    header {
-        padding: 0px 25px;
-    }
-}
-
-@media (max-width: 414px) {
-    header {
-        padding-left: 40px;
-        padding-right: 40px;
-        // margin-top: 24px;
     }
 }

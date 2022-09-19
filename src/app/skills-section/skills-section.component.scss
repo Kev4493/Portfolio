@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
-    padding: 60px 0px;
+    padding: 60px 9.5%;
     background-color: #1A1A1A;
     position: relative;
     display: flex;
@@ -24,7 +24,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 1000px;
+        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 60px;
@@ -66,68 +66,51 @@
     }
 }
 
-@media (max-width: 1090px) {
+// 4k / 2560px:
+@media (min-width: 2560px) {
 
-    .skill-boxes-container {
-        width: 800px !important;
+    .skills-section-container {
+        .skills-headline {
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .skill-boxes-container {
+            max-width: unset !important;
+            justify-content: space-between;
+            gap: 115px;
+
+            .skill-box {
+                width: 300px !important;
+                height: 250px !important;
+                margin: unset !important;
+
+                .skill-icon-container {
+                    left: 115px;
+                }
+    
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+
     }
 
+}
+
+// Sonstige Größe/ 864px:
+@media (max-width: 864px) {
     .skill-box {
         margin: 2rem 2rem !important;
     }
 }
 
-@media (max-width: 820px) {
-
-    .skill-boxes-container {
-        width: 595px !important;
-    }
-
+// Tablet / 768px:
+@media (max-width: 768px) {
     .skill-box {
-        margin: 2rem 3rem !important;
+        margin: 2rem 2rem !important;
     }
-}
-
-@media (max-width: 600px) {
-
-    .skill-boxes-container {
-        width: 430px !important;
-
-        .skill-box {
-            width: 150px !important;
-            height: 100px !important;
-            margin: 2rem 2rem !important;
-
-            .skill-icon-container {
-                width: 50px !important;
-                height: 50px !important;
-                left: 53px !important;
-
-                img {
-                    width: 25px !important;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: 425px) {
-
-    .skill-boxes-container {
-        width: 300px !important;
-
-        .skill-box {
-            width: 115px !important;
-            margin: 2rem 1rem !important;
-
-            p {
-                text-align: center;
-            }
-
-            .skill-icon-container {
-                left: 35px !important;
-            }
-        }
-    }
-
 }

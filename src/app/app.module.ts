@@ -16,6 +16,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
+import { DialogMailCheckoutComponent } from './dialog-mail-checkout/dialog-mail-checkout.component';
+import { MatDialogModule } from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +31,8 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
     ContactSectionComponent,
     FooterSectionComponent,
     ImprintComponent,
-    DataProtectionComponent
+    DataProtectionComponent,
+    DialogMailCheckoutComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +40,8 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
     BrowserAnimationsModule,
     MatMenuModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

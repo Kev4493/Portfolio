@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 60px 105px;
+    padding: 60px 12%;
 
     .headline-container {
         width: 650px;
@@ -84,9 +84,9 @@
 
             a {
                 text-decoration: none;
-                
+
             }
-        
+
             &:hover {
                 background-color: #2DFCD8;
                 color: black;
@@ -97,60 +97,81 @@
             }
         }
 
-    }  
+    }
 }
 
-@media (max-width:768px) {
-    
-    .contact-me-container {
-        padding: 60px 50px;
+// 4K / 2560px:
+@media (min-width: 2560px) {
+    .headline-container {
+        width: 1000px !important;
 
-        .headline-container {
-            width: 450px;
+        h1 {
+            font-size: 2.5rem !important;
         }
+        p {
+            font-size: 1.3rem !important;
+        }
+    }
 
+    .form-container {
         form {
-            width: 450px !important;
+            width: 1000px !important;
+
+            label {
+                font-size: 1.5rem !important;
+                margin-bottom: 1rem !important;
+            }
+    
+            input {
+                font-size: 1.5rem !important;
+                height: 65px !important;
+            }
+    
+            textarea {
+                font-size: 1.5rem !important;
+            }
+
+            .button-container {
+                width: 1000px !important;
+
+                button {
+                    width: 240px !important;
+                    height: 90px !important;
+                    p {
+                        font-size: 1.5rem !important;
+                    }
+                }
+            }
         }
+    }
+}
+// Tablet / 768px:
+@media (max-width: 768px) {
+    .headline-container {
+        width: 100% !important;
+    }
+
+    .form-container {
+        width: 100% !important;
+        display: unset !important;
+        justify-content: unset !important;
+        align-items: unset !important;
+        flex-direction: unset !important;
+    }
+
+
+    form {
+        width: unset !important;
     }
 
     .button-container {
-        width: 450px !important;
+        width: unset !important;
     }
 }
 
-@media (max-width: 600px) {
-    .contact-me-container {
-        padding: 60px 25px !important;
-
-        .headline-container {
-            width: 350px;
-        }
-
-        form {
-            width: 350px !important;
-        }
-
-        .button-container {
-            width: 350px !important;
-        }
-    }
-}
-
-@media (max-width: 375px) {
-
-    .contact-me-container {
-
-        .headline-container {
-            width: 310px !important;
-        }
-
-        form {
-            width: 310px !important;
-        }
-
-        .button-container {
-            width: 310px !important;
-        }
+// Mobile L / 425px: 
+@media (max-width: 425px) {
+    .button-container {
+        justify-content: center !important;
     }
 }

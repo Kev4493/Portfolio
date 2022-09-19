@@ -10,12 +10,13 @@
         <div [class.active]="jsProjects" (click)="showJsProjects()" class="project-filter">JavaScript</div>
     </div>
 
-    <div class="projects-container">
 
-        <div class="projects-boxes-container">
 
+    <div class="projects-boxes-container">
+
+        <div class="row1">
             <div data-aos="flip-right" class="project-box" *ngIf="allProjects || jsProjects">
-                <img class="project-cover" src="assets/img/portfolio_screenshots/screen_pollo_loco.png" alt="">
+                <img class="project-cover" src="assets/img/portfolio_screenshots/el_pollo_loco.png" alt="">
                 <div class="project-info">
                     <h1>El Pollo Loco</h1>
                     <p>This is a 2D Jump and Run Game based on object-oriented programming (OOP)</p>
@@ -26,56 +27,51 @@
                 </div>
             </div>
 
-            <div data-aos="flip-right" class="project-box" *ngIf="allProjects || angularProjects">
-                <img class="project-cover" src="assets/img/portfolio_screenshots/screen_ring_of_fire.png" alt="">
-                <div class="project-info">
-                    <h1>Ring of Fire</h1>
-                    <p>This is an Angular based webapp of the popular drinking game</p>
-                    <div class="button-container">
-                        <a href="https://ring-of-fire.kev-wagner.com/" target="_blank"><button>Try it out</button></a>
-                        <a href="https://github.com/Kev4493/Ring-of-Fire/tree/main/ringoffire" target="_blank"><button>Show me the Code</button></a>
-                    </div>
-                </div>
-            </div>
-
-            <div data-aos="flip-right" class="project-box" *ngIf="allProjects || jsProjects" >
-                <img class="project-cover" src="assets/img/portfolio_screenshots/screen_kanban.png" alt="">
+            <div data-aos="flip-right" class="project-box" *ngIf="allProjects || jsProjects">
+                <img class="project-cover" src="assets/img/portfolio_screenshots/join.png" alt="">
                 <div class="project-info">
                     <h1>Join - Kanban Board</h1>
                     <p>This is a Kanban Board for project and personal management. </p>
                     <div class="button-container">
                         <a href="https://join.kev-wagner.com/" target="_blank"><button>Try it out</button></a>
-                        <a href="https://github.com/MadMax8704/Kanban.git" target="_blank"><button>Show me the Code</button></a>
-                    </div>
-                </div>
-            </div>
-
-            <div data-aos="flip-right" class="project-box" *ngIf="allProjects || jsProjects">
-                <img class="project-cover" src="assets/img/portfolio_screenshots/screen_pokedex.png" alt="">
-                <div class="project-info">
-                    <h1>Pokedex</h1>
-                    <p>This is a collection of Pokemon and their skills based on the Pokedex-API</p>
-                    <div class="button-container">
-                        <a href="http://pokedex.kev-wagner.com/" target="_blank"><button>Try it out</button></a>
-                        <a href="https://github.com/Kev4493/Pokedex" target="_blank"><button>Show me the Code</button></a>
-                    </div>
-                </div>
-            </div>
-
-            <div data-aos="flip-right" class="project-box" *ngIf="allProjects || angularProjects">
-                <img class="project-cover" src="assets/img/portfolio_mac_screen_dark.jpg" alt="">
-                <div class="project-info">
-                    <h1>Portfolio</h1>
-                    <p>My personal homepage was created with angular</p>
-                    <div class="button-container">
-                        <a href="https://kev-wagner.com/" target="_blank"><button>Try it out</button></a>
-                        <a href="https://github.com/Kev4493/Portfolio" target="_blank"><button>Show me the Code</button></a>
+                        <a href="https://github.com/MadMax8704/Kanban.git" target="_blank"><button>Show me the
+                                Code</button></a>
                     </div>
                 </div>
             </div>
 
         </div>
 
+        <div class="row2">
+            <div data-aos="flip-right" class="project-box" *ngIf="allProjects || angularProjects">
+                <img class="project-cover" src="assets/img/portfolio_screenshots/ring_of_fire.png" alt="">
+                <div class="project-info">
+                    <h1>Ring of Fire</h1>
+                    <p>This is an Angular based webapp of the popular drinking game</p>
+                    <div class="button-container">
+                        <a href="https://ring-of-fire.kev-wagner.com/" target="_blank"><button>Try it out</button></a>
+                        <a href="https://github.com/Kev4493/Ring-of-Fire/tree/main/ringoffire"
+                            target="_blank"><button>Show me the Code</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="flip-right" class="project-box" *ngIf="allProjects || angularProjects">
+                <img class="project-cover" src="assets/img/portfolio_screenshots/portfolio.png" alt="">
+                <div class="project-info">
+                    <h1>Portfolio</h1>
+                    <p>My personal homepage was created with angular</p>
+                    <div class="button-container">
+                        <a href="https://kev-wagner.com/" target="_blank"><button>Try it out</button></a>
+                        <a href="https://github.com/Kev4493/Portfolio" target="_blank"><button>Show me the
+                                Code</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+
 
 </div>
